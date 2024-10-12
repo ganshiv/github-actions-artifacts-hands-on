@@ -30,4 +30,6 @@ jobs:
         path: ./artifacts/hello.txt
     - name: Echo file content
       run: |
+        cd ./artifacts
+        ls -la
         cat ./artifacts/hello.txt
